@@ -1,5 +1,9 @@
+import Products from "../components/Products";
+
 export default function ProductsPage() {
-  return <div>
-    <h1>hello world</h1>
-  </div>
+  return (
+    <div>
+      <Products />
+    </div>
+  )
 }
